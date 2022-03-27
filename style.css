@@ -1,0 +1,55 @@
+.container {
+    display: flex; /* or inline-flex */
+    flex-flow: row wrap;
+    justify-content: space-evenly; 
+  }
+
+h1{
+    color: white;
+    font-family: "Barlow";
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h3{
+    color: white;
+    font-family: "Barlow";
+    text-transform: uppercase;
+}
+
+p{
+    color: white;
+    font-family: "Barlow";
+    text-transform: uppercase;
+}
+
+.frontImage {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.iconImage{
+    width: 100px;
+
+}
+
+#who-button{
+    background-color: black;
+    color: white;
+    font-family: "Barlow";
+    text-transform: uppercase;   
+}
+
+#what-button{
+    background-color: black;
+    color: white;
+    font-family: "Barlow";
+    text-transform: uppercase;   
+}
+
+#community-button{
+    background-color: black;
+    color: white;
+    font-family: "Barlow";
+    text-transform: uppercase;   
+}
