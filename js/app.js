@@ -1,25 +1,24 @@
-function createNewToDoItem(toDoText) {
-    var listItem = document.createElement("li")
-    listItem.className = "list-group-item"
+function newTestimonial(testimonialQuote) {
+    var testimonialAdd = document.createElement("p")
+    testimonialAdd.className = "newQuote"
 
     var inputElement = document.createElement("input")
-    inputElement.className = "form-check-input me-1"
-    inputElement.type = "checkbox"
+    inputElement.className = "p"
     inputElement.value = ""
-    inputElement.ariaLabel = toDoText
+    inputElement.placeholder = testimonialQuote
 
     var text = document.createElement("span")
-    text.innerText = toDoText
-    listItem.appendChild(inputElement)
-    listItem.appendChild(text)
+    text.innerText = testimonialQuote
+    testimonialAdd.appendChild(inputElement)
+    testimonialAdd.appendChild(promptResponse)
 
-    var listGroup = document.getElementById("list-group")
-    listGroup.appendChild(listItem)
+    var newQuote = document.getElementById("container")
+    newQuote.appendChild(testimonialQuote)
 } 
 
-function onClickNewItemButton() {
-    var promptResponse = prompt('please enter a to do list item')
-    createNewToDoItem(promptResponse)
+function onClickNewTestimonial() {
+    var promptResponse = prompt('Please share your experience')
+    createNewQuote(promptResponse)
 }
 
-document.getElementById("button-add-new-item").addEventListener("click", onClickNewItemButton)
+document.getElementById("new-testimonial").addEventListener("click", onClickNewTestimonial)
