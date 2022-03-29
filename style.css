@@ -27,11 +27,20 @@ a:hover {
     justify-content: space-evenly; 
   }
 
-body h1{
+h1{
     color: white;
     font-family: "Barlow";
+    font-size: 48px;
     text-transform: uppercase;
     text-align: center;
+}
+
+h2 {
+  color: #FFFFFF;
+  font-family: "Barlow";
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 h3{
@@ -73,10 +82,6 @@ button:hover {
   border: solid 2px #FFFFFF;
 }
 
-.who-layout {
-  background-color:black;
-}
-
 .testimonial {
     color: transparent;
     font-family: "Barlow";
@@ -89,3 +94,17 @@ button:hover {
     color:black;
   }
 
+  .info-banner-text {
+    background: #F64996;
+    text-align: center;
+    padding: 30px 400px 30px 400px;
+    line-height: 28px;
+  }
+
+  .gallery {
+    text-align: center;
+  }
+  .gallery img{
+    background: #FFFFFF;
+    margin: 20px;
+  }
