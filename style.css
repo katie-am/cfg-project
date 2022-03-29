@@ -21,9 +21,9 @@ ul {
     text-decoration: none;
   }
   
-  /* Change the link color to #111 (black) on hover */
+  /* Change the link color to #F64996 (pink) on hover */
   li a:hover {
-    background-color: #111;
+    color: #F64996;
   }
 
 
@@ -62,25 +62,28 @@ p{
 
 }
 
-#who-button{
-    background-color: black;
-    color: white;
-    font-family: "Barlow";
-    text-transform: uppercase;   
+a {
+  color: #F64996;
+  text-decoration: none;
+
 }
 
-#what-button{
-    background-color: black;
-    color: white;
-    font-family: "Barlow";
-    text-transform: uppercase;   
+
+/*universial style for all buttons*/
+button {
+  color: #F64996;
+  background: black;
+  font-family: "Barlow";
+  text-transform: uppercase;   
+  padding: 20px 15px 20px 15px;
+  border: solid 2px #F64996;
+  cursor: pointer;
+  
 }
 
-#community-button{
-    background-color: black;
-    color: white;
-    font-family: "Barlow";
-    text-transform: uppercase;   
+button:hover {
+  color: #FFFFFF;
+  border: solid 2px #FFFFFF;
 }
 
 .testimonial {
