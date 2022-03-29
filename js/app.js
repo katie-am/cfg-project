@@ -1,24 +1,26 @@
-function newTestimonial(testimonialQuote) {
-    var testimonialAdd = document.createElement("p")
-    testimonialAdd.className = "newQuote"
+// Tried to get an interactive button to add quote but does not work
 
-    var inputElement = document.createElement("input")
-    inputElement.className = "p"
-    inputElement.value = ""
-    inputElement.placeholder = testimonialQuote
+// function newTestimonial(testimonialQuote) {
+//     var testimonialAdd = document.createElement("p")
+//     testimonialAdd.className = "newQuote"
 
-    var text = document.createElement("span")
-    text.innerText = testimonialQuote
-    testimonialAdd.appendChild(inputElement)
-    testimonialAdd.appendChild(promptResponse)
+//     var inputElement = document.createElement("input")
+//     inputElement.className = "p"
+//     inputElement.value = ""
+//     inputElement.placeholder = testimonialQuote
 
-    var newQuote = document.getElementById("container")
-    newQuote.appendChild(testimonialQuote)
-} 
+//     var text = document.createElement("span")
+//     text.innerText = testimonialQuote
+//     testimonialAdd.appendChild(inputElement)
+//     testimonialAdd.appendChild(promptResponse)
 
-function onClickNewTestimonial() {
-    var promptResponse = prompt('Please share your experience')
-    createNewQuote(promptResponse)
-}
+//     var newQuote = document.getElementById("container")
+//     newQuote.appendChild(testimonialQuote)
+// } 
 
-document.getElementById("new-testimonial").addEventListener("click", onClickNewTestimonial)
+// function onClickNewTestimonial() {
+//     var promptResponse = prompt('Please share your experience')
+//     createNewQuote(promptResponse)
+// }
+
+// document.getElementById("new-testimonial").addEventListener("click", onClickNewTestimonial)
