@@ -1,31 +1,25 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
-  }
-  
-  li {
-    float: left;
-    color: white;
-    font-family: "Barlow";
-    text-transform: uppercase;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #F64996 (pink) on hover */
-  li a:hover {
-    color: #F64996;
-  }
+html{
+  background-color:black;
+}
 
+nav {
+  float: left;
+  color: white;
+  font-family: "Barlow";
+  text-transform: uppercase;
+  text-align: center;
+  overflow: hidden;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+a:hover {
+  color: #F64996;
+}
 
 .container {
     display: flex; /* or inline-flex */
@@ -33,7 +27,7 @@ ul {
     justify-content: space-evenly; 
   }
 
-h1{
+body h1{
     color: white;
     font-family: "Barlow";
     text-transform: uppercase;
@@ -62,13 +56,6 @@ p{
 
 }
 
-a {
-  color: #F64996;
-  text-decoration: none;
-
-}
-
-
 /*universial style for all buttons*/
 button {
   color: #F64996;
@@ -86,6 +73,10 @@ button:hover {
   border: solid 2px #FFFFFF;
 }
 
+.who-layout {
+  background-color:black;
+}
+
 .testimonial {
     color: transparent;
     font-family: "Barlow";
@@ -97,3 +88,4 @@ button:hover {
 .testimonial:hover {
     color:black;
   }
+
