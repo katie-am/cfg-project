@@ -99,9 +99,9 @@ h3{
   font-style: italic;
   justify-content: space-evenly;
   padding: 4px;
-  margin: 5%;
+  margin: 2%;
   flex-flow: wrap;
-  max-width: 33%;  
+  max-width: 25%;  
   }
   
 .testimonial:hover {
