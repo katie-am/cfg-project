@@ -84,17 +84,42 @@ h3{
   border: solid 2px #FFFFFF;
 }
 
+/* Making testimonials responsive */
+
+.rows {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
 .testimonial {
-    color: transparent;
-    font-family: "Barlow";
-    text-transform: uppercase;
-    font-style: italic;
-    padding: 10px;
+  display: flex;  
+  color: transparent;
+  font-family: "Barlow";
+  text-transform: uppercase;
+  font-style: italic;
+  justify-content: space-evenly;
+  padding: 4px;
+  margin: 5%;
+  flex-flow: wrap;
+  max-width: 33%;  
   }
   
 .testimonial:hover {
     color:black;
   }
+
+@media (max-width: 800px) {
+  .testimonial {
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .testimonial {
+    max-width: 100%;
+  }
+}
+
 
 .info-banner-text {
   background: #F64996;
